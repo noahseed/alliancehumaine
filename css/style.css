@@ -115,36 +115,16 @@ ul, ol {
     text-decoration: none;
     border: 2px solid black;
 }
-/* about */
-#about {
-    background-color: #fff;
-}
-#about .heading h2 {
-    color: black;
-    margin: 30px auto;
-}
-#about .progress {
-    height: auto;
-    margin: 0 0 30px 0;
-    background-color: gray;
-}
-#about .progress-bar {
-    background-color: #111;
-}
-#about .progress h5 {
-    margin-top: 5px;
-
-}
 /* EXPERIENCE */
-#adherer {
+#about {
     background-color: #111;
     text-align: center;
     color: whitesmoke;
 }
-#adherer .heading h2 {
+#about .heading h2 {
     margin: 30px auto;
 }
-#adherer .button {
+#about .button {
     margin: 40px auto 0;
     display: inline-block;
     font-weight: bold;
@@ -156,7 +136,7 @@ ul, ol {
     transition: all 0.3s ease-in 0s;
     background: transparent;
 }
-#adherer .button:hover {
+#about .button:hover {
     background: gray;
     color: black;
     text-decoration: none;
