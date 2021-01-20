@@ -116,15 +116,18 @@ ul, ol {
     border: 2px solid black;
 }
 /* EXPERIENCE */
-#about {
+#status {
     background-color: #111;
-    text-align: center;
+    text-align: justify;
     color: whitesmoke;
 }
-#about .heading h2 {
+#status ol {
+    list-style-type: decimal;
+}
+#status .heading h2 {
     margin: 30px auto;
 }
-#about .button {
+#status .button {
     margin: 40px auto 0;
     display: inline-block;
     font-weight: bold;
@@ -136,7 +139,7 @@ ul, ol {
     transition: all 0.3s ease-in 0s;
     background: transparent;
 }
-#about .button:hover {
+#status .button:hover {
     background: gray;
     color: black;
     text-decoration: none;
